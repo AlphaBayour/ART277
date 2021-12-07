@@ -1,142 +1,179 @@
-
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0;
-    margin: 0;
-
-}
-/* utility */
-.container{
-    width: 90%;
+/* Basic Style */
+main {
+    width: 80%;
     margin: auto;
-    padding: 0;
-    overflow: hidden;
 }
 
-/* Home Page */
-
-/* header 1 */
-.header-1 h1{
-    margin: 0;
-    color: dimgray;
-    margin-top: 15px;
-    font-size: 45px;
+body {
+padding-left: 5%;
+padding-right: 8%;
+}
+span {
+    color: rgb(255, 217, 0);
 }
 
-/* navbar */
-header{
-    background-color: darkslategray;
-    min-height: 70px;
-    margin: 0;
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(204, 245, 158);
+       
 }
 
-.navbar ul{
-    color: white;
-    margin-top: 27px;
-    padding: 0;
-    
+p {
+    color: rgb(75, 75, 75);
+    text-align: justify;
 }
-.navbar{
-    margin: 0;
-    
+h3 {
+    color: rgb(75, 75, 75);;
 }
-.navbar ul li{
-    list-style-type: none;
-    display: inline;
-}
-
-.navbar ul li a{
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    transition: 0.4s ease-in-out;
-    
-}
-
-.navbar ul li a:hover{
-    color: turquoise;
-    
-}
-
-/* Banner */
-.banner img{
+.header {
     width: 100%;
-    height: 500px;
-    height: 80%
+    height: auto;
+
 }
 
-/* content */
-
-.content img{
-    width: 190px;
-    height: 150px;
-    float: right;
-    margin-bottom: 30px;
-}
-.container p{
-    margin: 0;
-    margin-top: 5px;
-}
-.content h2{
-    margin: 0;
-    margin-top: 20px;
+.navi {
+    background-color: rgb(80, 175, 80);
+    width: 100%;
+    height: auto;
+    text-align: right;
 }
 
-/* footer */
-footer{
-    background-color: darkslategray;
-    color: white;
+.navi > ul {
+    list-style: none;
+     
 }
-footer h5{
-    font-size: 16px;
+
+.navi > li {
+    display: inline-block;
+    word-spacing: 20px;
+    font-size: 30px;
+    padding: 20px;
     
 }
 
-/* About Us */
-/* Article */
-article{
-    background-color: rgb(40, 41, 41);
-    min-height: 90px;
-    color: white;
+li > a {
+    text-decoration: none;
+    color: rgb(248, 248, 221);
+
 }
-article p{
-    padding-top: 20px;
+.content {
+    width: 100%;
+    height: auto;
+    font-size: 1.7em;
+    padding: 20px;
+}
+
+.content > h3 {
+    font-size: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(69, 83, 69);
+    margin:1% 0%;
+    
+}
+
+.content > h2 {
     font-size: 40px;
-    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  
     
 }
 
-/* Section */
+.content > img {
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+    margin-bottom: 10px;
+    
+}
 
-section h2{
-    text-align: center;
-    margin: 0;
-    margin-top: 30px;
-}
-section p{
-    margin: 0;
-    padding-top: 5px;
-}
-section img{
-    width: 180px;
-    height: 200px;
+.entity {
+    list-style: none;
+    font-size: 1.2em;
+    color: whitesmoke;
     float: left;
-    padding: 10px;
+    
 }
 
-/* Prevention Page */
-main{
-    background-color: rgb(40, 41, 41);
-    min-height: 95px;
+
+.lot > table {
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 14px;
+  
 }
-main h4{
+
+.footer {
+    background-color: rgb(80, 175, 80);
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    color: ivory;
+    font-size: 20px;
     text-align: center;
-    color: white;
-    margin-top: 35px;
-    font-size: 40px;
+
+    
+
+
 }
 
-.showcase p{
-    margin-top: 30px;
+#tab{
+    border: black;
+    background-color:  rgb(96, 216, 96);
+    margin-bottom: 0px;
+    padding: 2px;;
 }
+#tab th, td, tr{
+    padding: 10px;
+    width:700px;
+    height: 8px;
+    margin-left:10%;
+    margin-right:10%;
+    position: center;
+}
+
+#form{
+
+    background-color: rgb(80, 175, 80);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    padding-right: 30px;
+    border-radius: 5px;
+   
+}
+#name, #email, #website, #subject {
+    border-radius: 7px;
+    width: 100%;
+    height: 45px;
+}
+#form label{
+    font-weight: 200;
+    color: black
+    font-size: large;
+    
+}
+#form input{
+    font-weight: 600;
+    color: black
+    font-size: large;
+    
+}
+#message {
+    border-radius: 7px;
+    width: 100%;
+    height: 70px;
+}
+#sub{
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    background-color:rgb(91, 231, 91);
+    color: white;
+}
+
+
+
